@@ -6,6 +6,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bro+Sister</title>
   <link rel="stylesheet" href="style.css" />
+
+  <style>
+    @media screen and (max-width: 768px) {
+      .book {
+        width: 40vw;
+        font-size: 2vmin;
+      }
+      
+      .page {
+        font-size: 2vmin;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      .book {
+        width: 60vw;
+        font-size: 4vmin;
+      }
+      
+      .page {
+        font-size: 3vmin;
+      }
+      
+      .page .front p,
+      .page .front h2 {
+        padding: 0.5em;
+      }
+      
+      .page .front img,
+      .page .front video {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+
+    @media screen and (max-width: 240px) {
+      .book {
+        width: 80vw;
+        font-size: 4vmin;
+      }
+      
+      .page {
+        font-size: 3vmin;
+      }
+      
+      .page .front p,
+      .page .front h2 {
+        padding: 0.25em;
+      }
+      
+      .page .front img,
+      .page .front video {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  </style>
 </head>
 
 <body>
